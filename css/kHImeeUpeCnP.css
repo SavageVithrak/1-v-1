@@ -1,0 +1,369 @@
+body{
+    background-color: #7ae4fe;
+}
+.max-with{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+input:focus{
+    outline:0;}
+button:focus{
+    outline:0;}
+.top{
+    background-color: #1f252d;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    padding-left: 5px;
+}
+.nav{
+    float: right;
+    padding-right: 5px;
+}
+.top{
+    padding-top: 3px;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    margin: 0;
+}
+.nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.75em;
+
+}
+
+.lef{
+    float: left;
+    width: 15%;
+}
+.mid{
+    float: left;
+    width: 70%;
+}
+.right{
+    float: right;
+    width: 15%;
+}
+.games-box{
+    position: relative;
+    transition-duration: .3s;
+    padding: 5px;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: transform,box-shadow;
+    -moz-transition-property: transform,box-shadow;
+    -o-transition-property: transform,box-shadow;
+    transition-property: transform,box-shadow;
+}
+.title{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    bottom: auto;
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.1;
+    opacity: 0;
+
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+    transition-property: opacity,line-height,height,top;
+    font-size: 15px;
+    right: 0;
+    text-transform: capitalize;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.games-box:hover .title{
+    line-height: 1.1;
+    top: calc(30px/2 - 8px);
+    opacity: 1;
+}
+.border{
+    border-radius:5px;
+    overflow: hidden;
+    transition-duration: .3s;
+    -webkit-transition-property: transform,box-shadow;
+    -moz-transition-property: transform,box-shadow;
+    -o-transition-property: transform,box-shadow;
+    transition-property: transform,box-shadow;
+}
+.mid{
+    padding: 5px;
+}
+.L{
+    float: left;
+    width: 30%;
+}
+.B{
+    background: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.LL{
+    float: left;
+    width: 70%; 
+}
+.box-box{
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,.2);
+    background-image: -webkit-linear-gradient(#959595 0%,#7b7b7b 50%,#7b7b7b 100%);
+    overflow: hidden;
+}
+.B img{
+    border-radius: 20px;
+    width: 100%;
+    padding: 9px;
+}
+.cl{
+
+    margin-bottom: -5px;
+    padding: 5px;
+}
+.bg{
+    background: #7ae4fe;
+    border-radius: 5px;
+    height: 56px;
+}
+.names h1{
+    color: #000;
+    line-height: normal;
+    text-align: left;
+    font-family: ubuntu,sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.clme{
+    height: 82px;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.thum-b{
+    text-align: center;
+}
+.rates{
+    float: left;
+}
+.fii{
+    float: right;
+}
+.fullscreen{
+    color: #fff;
+    font-weight: bold;
+}
+.text-box{
+    color: #1e546c;
+    font-family: ubuntu,sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.adsx{
+margin-top: 10px;
+}
+
+
+
+.ads{
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+.adsleft{
+float: left;
+        width: 300px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+.adsrigh{
+float: right;
+    width: 300px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.box-plays{
+    margin-top: 10px;
+}
+
+
+
+
+.colorads{
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+	    margin: 50px 0;
+		text-transform: uppercase;
+}
+.names{
+    padding-top: 18px;
+    padding-left: 3px;
+}
+.with{
+    width: 20%;
+    float: left;
+        border-radius: 10px;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+.paging a, .paging span {
+    padding: 6px 13px;
+    font-size: 15px;
+    color: #000;
+    margin: 3px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.paging span {
+       background-color: #000;
+    color: #fff;
+}
+
+.paging {
+    padding-top: 10px;
+    text-align: center;
+    clear: both;
+}
+.paging a:hover{
+     background-color: #000;
+    color: #fff;
+}
+.AboutGame{
+        margin: 10px 5px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.how p{
+       font-weight: 200;
+    color: #222; 
+}
+.games-box:hover .border{
+    -webkit-transform: scaleX(1.015) scaleY(1.015);
+    -moz-transform: scaleX(1.015) scaleY(1.015);
+    -ms-transform: scaleX(1.015) scaleY(1.015);
+    -o-transform: scaleX(1.015) scaleY(1.015);
+    transform: scaleX(1.015) scaleY(1.015);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.5);
+}
+
+.Footer{
+        background-color: #1f252d;
+    overflow: hidden;
+}
+.footer{
+        text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.max-with {
+    padding: 0 5px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .lef{
+        display: none;
+    }
+    .right{
+         display: none;
+    }
+    .mid {
+    width: 100%;
+}
+.with {
+    width: 50%;
+}
+.max-with {
+    padding: 0 5px;
+}
+.fullscreen {
+    display: none;
+}
+.B {
+    display: none;
+}
+.cl {
+    display: none;
+}
+.names {
+    padding-top: 0;
+}
+.clme {
+        height: 100%;
+}
+.LL {
+    width: 100%;
+}
+.names h1 {
+    text-align: center;
+}
+}
+
+
+@media only screen and (max-width: 1644px) {
+    .adsleft{
+        width: 160px!important;
+    }
+    .adsrigh{
+        width: 160px!important; 
+    }
+}
+
+@media only screen and (max-width: 1374px) {
+    .adsleft{
+        display: none;
+    }
+    .adsrigh{
+        display: none;
+    }
+}
+
